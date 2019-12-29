@@ -45,6 +45,9 @@
           {% if site.github.is_project_page %}
             <p class="repo-owner">Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
           {% endif %}
+          {% if site.github.is_user_page %}
+            <p class="return-home">Return to <a href="{{ site.url }}">main page</a>.</p>
+          {% endif %
           
           <p><a href="{{ site.url }}/contact">Contact me</a>.</p>
         </aside>
